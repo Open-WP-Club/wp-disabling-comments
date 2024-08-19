@@ -66,6 +66,14 @@ class OWPC_Disable_Comments
 
         // Disable support for comments and trackbacks in post types
         foreach (get_post_types() as $post_type) {
+            /**
+             * Removes comments and discussion settings from the admin menu.
+             *
+             * This function is used to customize the WordPress admin menu by removing
+             *    the comments and discussion settings pages.
+             *
+             * @return void
+             */
             if (post_type_supports($post_type, 'comments')) {
                 remove_post_type_support($post_type, 'comments');
                 remove_post_type_support($post_type, 'trackbacks');
