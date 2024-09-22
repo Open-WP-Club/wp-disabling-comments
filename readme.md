@@ -2,7 +2,7 @@
 
 ## Description
 
-Te plugin allows you to completely remove comment-related features from both the front-end and admin areas of your WordPress site.
+The plugin allows you to completely remove comment-related features from your WordPress site's front-end and admin areas.
 
 ## Features
 
